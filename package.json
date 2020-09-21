@@ -1,11 +1,11 @@
 {
-    "private": true,
-    "name": "build-media-react",
+    "name": "rollup-react-project-example",
     "version": "1.0.0",
     "license": "MIT",
+    "description": "Rollup + Babel + React + style-jsx",
     "scripts": {
         "dev": "rollup -c -w",
-        "build": "rimraf ../public/dist && cross-env NODE_ENV=production rollup -c"
+        "build": "rimraf ./public/dist && cross-env NODE_ENV=production rollup -c"
     },
     "devDependencies": {
         "@babel/core": "^7.11.6",

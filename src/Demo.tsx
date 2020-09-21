@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 
 function App() {
     return (
-        <div>
+        <div id="test">
             <style jsx>{`
-                #app {
+                #test {
                     display: flex;
                     position: fixed;
                     top: 0;

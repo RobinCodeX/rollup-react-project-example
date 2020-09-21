@@ -14,7 +14,7 @@ export default {
         'src/Demo.tsx',
     ],
     output: {
-        dir: "./dist",
+        dir: "./public/dist",
         format: 'es',
         sourcemap: isProd? false : true,
     },
