@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 function App() {
     return (
         <div id="test">
+            <h1>Header</h1>
             <style jsx>{`
                 #test {
                     display: flex;
