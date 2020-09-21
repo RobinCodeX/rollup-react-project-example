@@ -1,0 +1,9 @@
+*.log
+.DS_Store
+dist/
+node_modules/
+*.pid
+.next
+*.lock
+.fun
+package-lock.json
