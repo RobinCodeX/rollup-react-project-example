@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "license": "MIT",
     "description": "Rollup + Babel + React + style-jsx",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com/RobinCodeX/rollup-react-project-example.git"
+    },
     "scripts": {
         "dev": "rollup -c -w",
         "build": "rimraf ./public/dist && cross-env NODE_ENV=production rollup -c"
