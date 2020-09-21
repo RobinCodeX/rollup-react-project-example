@@ -7,7 +7,9 @@
         "type": "git",
         "url": "git@github.com/RobinCodeX/rollup-react-project-example.git"
     },
+    "main": "build/index.js",
     "scripts": {
+        "start": "npm run dev",
         "dev": "rollup -c -w",
         "build": "rimraf ./public/dist && cross-env NODE_ENV=production rollup -c"
     },

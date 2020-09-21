@@ -20,7 +20,7 @@ export default {
     },
     plugins: [
         replace({
-            'process.env.NODE_ENV': JSON.stringify(isProd ? 'production' : 'development'),
+            'process.env.NODE_ENV': isProd ? 'production' : 'development',
         }),
         nodeResolve({
             extensions,
